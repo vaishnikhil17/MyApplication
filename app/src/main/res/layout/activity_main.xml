@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btna"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button A" />
+
+        <Button
+            android:id="@+id/btnb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button B" />
+
+        <Button
+            android:id="@+id/btnc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button C" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Extent Button" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intent Button" />
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:text="Press Button" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialogbox"
+        android:text="Dialog Box"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom Dialog Box"
+        android:background="@drawable/roundedbutton"
+        android:id="@+id/cdbtn"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/retrofit_btn"
+        android:text="Retrofit Button"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/retro_person"
+        android:text="Retro_Person_Inform_button"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bio"
+        android:text="RetroClientProfile"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:id="@+id/btmbtn"
+            android:text="Bottom Button" />
+    </FrameLayout>
+
+
+</LinearLayout>
