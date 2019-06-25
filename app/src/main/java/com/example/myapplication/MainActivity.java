@@ -10,8 +10,10 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
+import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -30,13 +32,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private TextView txt;
     ///////////////////
     private Button bottombtn;
-
     //custom dialog box
     final Context context = this;
     private Button cus_dia_btn ;
-
-
-
     //object and Button view for dialog box
     private AlertDialog.Builder builder;
     private Button dialog_btn;
@@ -49,14 +47,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     //Retrofit Person Bio Button
     private Button RetroBtn;
 
-
-
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
 
         ///////////////////////////////////////////////////////////
         //Retro Person Bio
